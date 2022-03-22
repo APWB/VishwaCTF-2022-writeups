@@ -1,0 +1,17 @@
+Nice Challange Steps :
+
+1)open and decompile the binary
+2)set break at main. just jump over to the username input ,after the input it decrypt a string which is 'NiceOne!-_' 
+3)The algorithm to genarate password of usernames is like this: s = 'NiceOne!-_' s[i] ^ len(user_name) == password[i]
+4)so i use the following script to genarate the password for the user:
+###~user_name = 'nLYTCmdXobFRhs'
+s = 'NiceOne!-_'
+for i in range(len(s)):
+	print((len(user)^ord(s[i])),end='_')
+print(len(user))~###
+
+5)And We Got The Flag : vishwaCTF{64_103_109_107_65_96_107_47_35_81_14}
+
+:)
+
+###Made By Shriyansh Gupta (Dumbledore's Army)###

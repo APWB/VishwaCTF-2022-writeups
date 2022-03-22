@@ -1,0 +1,9 @@
+So a very Easy Challange Steps :
+
+1)Just Decompile in Ghidra or IDA
+2)In the printflag() there is some decimal value decode them to get the flag
+3)The Flag was : vishwaCTF{r3vers1ng_dud3}
+
+:)
+
+###Made By Shriyansh Gupta (Dumbledore's Army)###

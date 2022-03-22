@@ -1,0 +1,9 @@
+Chall name: Corrupted image
+
+We see that the file extension is .bmp
+
+a quick search on bmp header tells us that the bmp file signature is 42 4d f6 04 00 00
+
+Editing the first few bytes of the image with 42 4d f6 04 00 00 in a hex editor like ghex and HxD, will make the pic complete 
+
+now the image opens and the flag is written there

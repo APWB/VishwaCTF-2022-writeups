@@ -1,0 +1,12 @@
+Challenge name: Caught very easily
+
+A little search on the chall gives us the CVE of the vuln that tried to jailbreak Ahmed Mansoor's iPhone promising to provide secrets of the jail
+the cve is CVE-2016-4656
+
+Searching this we get the edb id as 44836
+this forms first part of our flag
+
+Now when we enter this edb id in exploitdb website, we get the same CVE and a date i.e. 2018-06-05
+
+This forms 2nd part of flag
+

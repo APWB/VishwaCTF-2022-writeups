@@ -1,0 +1,15 @@
+So it was a tricky challange Steps :
+
+1)I opened the file in sonic visuilizer and for a link of pastebin : "https://pastebin.com/kTX7HTmm"
+2)It was some Raw data so i saw the last bytes which were "FF D9" so there are of a JPG file 
+3) So in the end it should be "FF D8 FF" but it was "FF D9" so i changed it and used xxd to convert it into a jpg
+4)I saw the image but no flag so i got a encrypted thing which was "xjslxjKCH{i_hidtqw_npvi_mjajioa}" 
+5) It was vineger so I bruteforced it but dint got anything and then saw the image again and i Noticied that The word "DATE" is not cut so it was the key !!
+6) I used it but still dint got the flag i got another encoded Flag : ujzhujRYE{i_oeatxs_kpce_jjhffoh}
+7) It was agin vineger so i bruteforced the key, first letter A to Z then next letter until I satisfy the “vishwaCTF” format on the output.
+8) I got the key : cbaebjij and decoded it and got the flag 
+9) Flag was : vishwaCTF{i_heckin_love_lasagna}
+
+:)
+
+###Made By Shriyansh Gupta (Dumbledore's Army)###

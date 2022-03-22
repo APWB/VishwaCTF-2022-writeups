@@ -1,0 +1,9 @@
+chall name: No way home
+
+SECAP is written on the building in the image
+
+A quick search and we see that it is located in jorge drom street
+
+That's the street name
+
+vishwaCTF{jorge_drom}

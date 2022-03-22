@@ -1,0 +1,8 @@
+So it was a Easy chall Steps :
+
+1)I viewed the hint 'All Chores Encloses Rare Encrypted cipher' so i was knowing there is a chiper called acer chiper decoded it and got another encoded text which was aes beacuse in description its written SEA so if we revers it we get AES and i used the key as listentocoolsong mode was ECB
+2) Got the flag : vishwaCTF{mus1c4l_c1ph3r_1n_4ct10n}
+
+:)
+
+###Made By Shriyansh Gupta (Dumbledore's Army)###

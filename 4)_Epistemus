@@ -1,0 +1,12 @@
+This was a easy chall steps :
+
+1)I saw the image carefully and saw that there was a link in bottom right i foung a github link "https://github.com/RohitStark/Epistemus"
+2)I opened the repo and saw there were 3 files README.md , rightplace?.txt and a zip file something_in_the_way.rar
+3)I downloaded then and saw that the rar file was encrypted i tryed fcrackzip but it failed so I saw other files and i found something i was know twitter decoder
+4)I decoded the twitter encoded i got "alright the password is r1ghtpl4c3 d  " so password is r1ghtpl4c3 Cracked the zip and got many txt files.
+5)I was knowing what to do i did "cat * | gerp vishwa" i dint got the flag which was unaccepted so i think and got a point that every flag have { i changed my command to "cat * | gerp {" i got the flag .
+6) Flag is flag:{th1ng$_a43_n0t_wh4t_th3y_4lw4y$_$33m}
+
+ :)
+ 
+ ###Made By Shriyansh Gupta (Dumbledore's Army)###

@@ -1,0 +1,13 @@
+So it was a HARD challange Steps :
+
+1)I used IDA to decompile you can se any
+2)I will see margesort and spiralOrder function when i decompiled it 
+3)I needed to return 1 from the spiralOrder function for that i have to bypass all the switch statement with correct input
+4)I needed to set breakpoints at the if conditions in switch cases
+5)After that check the compare value of the dl and al register to find the correct value
+6)I noteded all the valuses on paper and then bypassed it and got the flag
+7) Flag was : vishwactf{_1_@m_@_w33b_}
+
+:)
+
+ ###Made By Shriyansh Gupta (Dumbledore's Army)###

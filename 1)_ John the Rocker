@@ -1,0 +1,10 @@
+So it was a Easy Chall just needed to use ssh2john Steps :
+
+1) python ssh2john.py idrsa.id_rsa.docx > id_rsa.hash
+2)john --wordlist=rockyou.txt id_rsa.hash
+3)When i run there commands i got the secreat which was : !!**john**!!
+4) Flag was : vishwaCTF{!!**john**!!}
+
+:)
+
+###Made By Shriyansh Gupta (Dumbledore's Army)###

@@ -1,0 +1,11 @@
+So a very easy challange Steps :
+
+1)There is ssti vulnability .
+2)There was input limit set in html code so I can bypass the limit by just modify in inspect element.
+3)I used listdir() of os module to get file list in the current dir : "{{url_for.__globals__.os.__dict__.listdir('./')}}"
+4)So now we need to open the file we can use open function with read attribute : "{{url_for.__globals__.__builtins__.open('flag.txt').read()}}"
+5)Flag was : VishwaCTF{S3rv3r_1s_4fraiD_of_inj3c7ion}
+
+:)
+
+###Made By Shriyansh Gupta (Dumbledore's Army)###

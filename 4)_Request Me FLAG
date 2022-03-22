@@ -1,0 +1,9 @@
+So it was a easy challange Steps :
+
+1) I was knowing we need to use curl beacuse using it we can get different methods of requests so i used it 
+2) Command was : curl -X FLAG https://r3qu35t-m3-fl4g.vishwactf.com/404.php -i
+3) I got Flag using This : VishwaCTF{404_1s_ju57_4n_i11u5ion}
+
+:)
+
+###Made By Shriyansh Gupta (Dumbledore's Army)###

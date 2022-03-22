@@ -1,0 +1,13 @@
+So this was a basic chall just needed to open the pacap and view it
+I used Wireshark and opened the file here :
+
+1) i applyed this filter 'tcp.stream eq 5'
+2)i got a string in password 'S04xWjZQWFZ5OQ%3D%3D'
+3)it was base 64 decoded it and got 'KN1Z6PXVy9'
+
+wraped the formate vishwaCTF{KN1Z6PXVy9}
+and solved it 
+
+:)
+
+###Made By Shriyansh Gupta (Dumbledore's Army)###

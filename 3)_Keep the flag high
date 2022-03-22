@@ -1,0 +1,11 @@
+So it was not a easy chall a bit tricky steps :
+
+1) I opened it in hex editor i saw its a png file so i changed the hedders to png file which are png: 89 50 4E 47 0D 0A 1A 0A
+2) I got a qrcode decoded it i got a gdrive link and downloaded the image 
+3) When i was analizeing it in many tools like stegextract and strings i got a string which was wired so i used some decoders and found it was ROT 47
+4) I decoded the string i got a unmeaningfull flag reversed it and got the flag 
+5) flag was : VishwaCTF{f0r3nsic5_is_t3di0us}
+ 
+ :)
+ 
+###Made By Shriyansh Gupta (Dumbledore's Army)###

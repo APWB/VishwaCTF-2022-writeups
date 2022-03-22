@@ -1,0 +1,14 @@
+So it was a good challange and easy Steps :
+
+1)So in the pdf the given app name "Clean Your Phone".
+2)Search it on BeVigil and i got malware link : 'https://bevigil.com/report/com.robocleansoft.boostvscleanapp'
+3)Now I checked Assets in the analysis report. 
+In URL section we see a pastebin link and i got an pastebin link : 'https://pastebin.com/raw/ZTqJjZgN'
+4)This gives me IP to visit "http://54.203.2.101:35911/{} + targets_tracker_filename"
+5)In Firebase URL we see api link, this gives us directory name and i add both to : "http://54.203.2.101:35911/96ad18382614e3f36ccf87752ccfa2a4"
+6)It downloads a file
+7)If i open it i get a base 64 string and i decoded it and got the flag
+8) Flag was : Bevigil-Viit{7hr3at_4naly5i5_i5_FuN}
+
+:)
+

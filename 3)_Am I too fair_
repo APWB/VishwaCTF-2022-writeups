@@ -1,0 +1,14 @@
+Easy Challange Steps :
+
+1)There are 8 different emojis
+2)so thought of octal. Also total 45 emojis
+3)each character in octal is 3 digits
+4)So octal checks out
+5)We need to form 15 characters. 
+6)Each octal ascii code starts with 0 or 1
+7)So I bruteforced a bit so that each set gives out valid characters and proper meaning full words which was the flag
+8)Flag was : vishvaCTF{F0RB1DD3N_FRU1T}
+
+:)
+
+###Made By Shriyansh Gupta (Dumbledore's Army)###

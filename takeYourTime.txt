@@ -1,0 +1,30 @@
+#TakeYourTime reversing
+#Writeup by jrke(Dumbledore's Army)
+
+#Again a random numbers guessing chall but wait there is a seed
+#i wrote the random generator in c
+"""#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdbool.h>
+#include <time.h>
+
+
+int main()
+{
+    srand(NOUNCE);
+    int a = rand();
+    int b = (a + -3) * 3;
+    if ((b & 1) != 0) {
+        b -= 1;
+    }
+    int c = (int)b / 2 + 7;
+    printf("%d %d %d", a, b, c);
+    return 0;
+}"""
+#where NOUNCE changes every second
+#now with python code i can get the current time and give it as NOUNCE in my generator to get numbers
+#so i just ran my python code + the chall file at same time(say with a difference less than a second)
+#inputted the numbers and got the flag
+#Screenshot when i solved it - https://cdn.discordapp.com/attachments/952933658208141372/954974174135332914/unknown.png
+#flag - vishwaCTF{t!m3_!5_m0n3y}

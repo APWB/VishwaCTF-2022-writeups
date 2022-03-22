@@ -1,0 +1,6 @@
+Challenge Name: Discord
+
+Open the discord of VishwaCTF and go to announcements channel
+
+Flag is in the description of the channel
+

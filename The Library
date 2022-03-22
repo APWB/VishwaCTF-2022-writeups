@@ -1,0 +1,63 @@
+Challenge Name: The Library
+ 
+Now in this challenge we have to interact with a bot named "The Librarian" and answer his questions.
+
+If our answers are right he'll send the flag
+
+So let's send "Hello" to the bot
+
+This is what he replies:
+
+"Welcome! Bring me what I ask and I shall take you on a journey across the land of books.
+Here is the first step -
+'Very few of us are what we seem.'
+Tommy is to call on Miss Glen at what time? Give me the time in 12 hr format (HH:MM) (without am/pm) and I will lead you further."
+
+Hmm, so let's search the keywords "Tommy is to call on Miss Glen at what time?" in google
+
+We get a short story collection named "Partners in Crime" where the names of two of the characters are Tommy and Miss Glenn
+
+Interesting!!
+
+Let's open it in wikipedia and search the keyword "call" using "Find" tool.(In Windows the shortcut for Find tool is Ctrl+F)
+
+We find a line in wikipedia:
+
+"Tommy receives a note from Miss Glen asking for his help and for him to call on her at The White House, Morgan's Avenue, at 6.10 pm"
+
+According to the question let's enter the answer as "06:10"
+Correct!!
+
+Now we get another puzzle
+
+"Good job, here is the next part -
+He appeared to help the Son of Neptune, this seer has a history of helping heroes on their quests. He is also acknowledged in mythology to guide a voyage to retrieve what?"
+
+A bit of research on Google leads us to Phineas who was a seer and guided a voyage to recover "Golden Fleece"
+
+So "Golden Fleece is the answer"
+
+Let's look at 3rd puzzle:
+
+"Well done, here is the next part -
+'The year without a summer, a vacation, and a classic was created.'
+ In this classic, the names of the creation and creator are often confused. Give me the name of the university where the creator studied and I shall give you the next piece of the puzzle."
+
+A little research and we'll get the the classic is Frankenstein
+Creator is Victor frankenstein
+And he attended university at University of Ingolstadt
+That is answer
+
+The fourth puzzle gives us a puzzle in which a pic with some ancient runes is given and we have to tell Dragon's name
+
+The runes are from the book The Hobbit by JRR Tolkien and dragon is Smaug
+answer:Smaug
+
+Fifth puzzle: we r given a pigpen cipher and a picture of Capitol Rotund
+a quick research and we find The Lost Symbol book which has the sentence given by bot : a severed hand right in the
+after decoding the pigpen cipher, we get another encoded string
+Duerers magic square is used in The Lost Symbol book
+decoding that gives us "OSINTISPRETTYFUN"
+That is the answer
+And now the bot will give us the flag
+
